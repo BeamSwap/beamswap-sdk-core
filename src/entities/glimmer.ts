@@ -26,7 +26,7 @@ export class Glimmer extends NativeCurrency {
     return other.isNative && other.chainId === this.chainId
   }
 
-  public sortsBefore(other: Token): boolean {
+  public sortsBefore(): boolean {
     return false
   }
 }
