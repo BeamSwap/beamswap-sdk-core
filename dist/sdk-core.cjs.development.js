@@ -17,12 +17,10 @@ var toFormat = _interopDefault(require('toformat'))
   SupportedChainId[(SupportedChainId['MOONBEAM'] = 1284)] = 'MOONBEAM'
   SupportedChainId[(SupportedChainId['MOONBASE_ALPHA'] = 1287)] = 'MOONBASE_ALPHA'
 })(exports.SupportedChainId || (exports.SupportedChainId = {}))
-
 ;(function(TradeType) {
   TradeType[(TradeType['EXACT_INPUT'] = 0)] = 'EXACT_INPUT'
   TradeType[(TradeType['EXACT_OUTPUT'] = 1)] = 'EXACT_OUTPUT'
 })(exports.TradeType || (exports.TradeType = {}))
-
 ;(function(Rounding) {
   Rounding[(Rounding['ROUND_DOWN'] = 0)] = 'ROUND_DOWN'
   Rounding[(Rounding['ROUND_HALF_UP'] = 1)] = 'ROUND_HALF_UP'

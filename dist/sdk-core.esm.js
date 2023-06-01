@@ -6,21 +6,18 @@ import _Big from 'big.js'
 import toFormat from 'toformat'
 
 var SupportedChainId
-
 ;(function(SupportedChainId) {
   SupportedChainId[(SupportedChainId['MOONBEAM'] = 1284)] = 'MOONBEAM'
   SupportedChainId[(SupportedChainId['MOONBASE_ALPHA'] = 1287)] = 'MOONBASE_ALPHA'
 })(SupportedChainId || (SupportedChainId = {}))
 
 var TradeType
-
 ;(function(TradeType) {
   TradeType[(TradeType['EXACT_INPUT'] = 0)] = 'EXACT_INPUT'
   TradeType[(TradeType['EXACT_OUTPUT'] = 1)] = 'EXACT_OUTPUT'
 })(TradeType || (TradeType = {}))
 
 var Rounding
-
 ;(function(Rounding) {
   Rounding[(Rounding['ROUND_DOWN'] = 0)] = 'ROUND_DOWN'
   Rounding[(Rounding['ROUND_HALF_UP'] = 1)] = 'ROUND_HALF_UP'
