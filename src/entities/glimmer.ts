@@ -4,9 +4,7 @@ import { NativeCurrency } from './nativeCurrency'
 import { Token } from './token'
 import { WETH9 } from './weth9'
 
-
 export class Glimmer extends NativeCurrency {
-
   protected constructor(chainId: number) {
     super(chainId, 18, 'GLMR', 'Glimmer')
   }
