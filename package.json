@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Rock-n-Block/beamswap-sdk-core.git",
+  "repository": "https://github.com/BeamSwap/beamswap-sdk-core.git",
   "keywords": [
     "uniswap",
     "ethereum"
